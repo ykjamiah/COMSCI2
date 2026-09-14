@@ -1,6 +1,7 @@
 import math
 
-# Note on the Distance Formula: The Euclidean distance formula calculates the straight-line distance between two points on a 2D plane. It uses the Pythagorean theorem (a² + b² = c²), where the horizontal change is (x2 - x1) and the vertical change is (y2 - y1). Taking the square root gives us the final distance.
+# Note on the Distance Formula: 
+The Euclidean distance formula calculates the straight-line distance between two points on a 2D plane. It uses the Pythagorean theorem (a² + b² = c²), where the horizontal change is (x2 - x1) and the vertical change is (y2 - y1). Taking the square root gives us the final distance.
 
 # Prompting the user for coordinates
 x1 = float(input("Enter x1: "))
