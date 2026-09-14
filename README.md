@@ -19,12 +19,12 @@ distance = math.sqrt(math.pow(delta_x, 2) + math.pow(delta_y, 2))
 # Displaying the final result clearly
 print(f"The distance between the two points is: {distance:.2f}")
 
-"""
-REFLECTION:
+
+# REFLECTION:
 Using a library is more practical because it provides pre-tested, optimized functions like sqrt() and pow(), saving time and reducing the risk of errors. 
 Instead of writing complex algorithms from scratch to approximate a square root manually, I could solve the formula in a single, readable line of code. 
 Without the math library, the program would be much longer and harder to write, as computing square roots manually requires implementing advanced mathematical loops.
-"""
+
 
 # WHAT I CHANGED AND WHY?
 WHAT: Added an explanatory comment about the Pythagorean theorem at the top of the script and introduced intermediate variables `delta_x` and `delta_y`.
